@@ -1,0 +1,144 @@
+// Convierte el siguiente código en una función, pero, cambiando cuando sea necesario
+//  las variables constantes por parámetros y argumentos en una función:
+
+// const name = "Juan David";
+// const lastname = "Castro Gallego";
+// const completeName = name + lastname;
+// const nickname = "juandc";
+
+// console.log(
+//   "Mi nombre es " +
+//     completeName +
+//     ", pero prefiero que me digas " +
+//     nickname +
+//     "."
+// );
+
+// function saludar(name, lastname, nickname) {
+//   let completeName = `${name} ${lastname}`;
+//   console.log(
+//     `Hola, me llamo ${completeName}, pero prefiero que me digas ${nickname}`
+//   );
+// }
+
+// saludar("Esteban", "Gomez", "Stefernant");
+
+// Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+
+// const tipoDeSuscripcion = "Basic";
+
+// switch (tipoDeSuscripcion) {
+//    case "Free":
+//        console.log("Solo puedes tomar los cursos gratis");
+//        break;
+//    case "Basic":
+//        console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+//        break;
+//    case "Expert":
+//
+//        break;
+//    case "ExpertPlus":
+//
+//        break;
+// }
+
+// let tipoDeSuscripcion = "expert";
+
+// if (tipoDeSuscripcion === "basic") {
+//   console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+// } else if (tipoDeSuscripcion === "expert") {
+//   console.log("Puedes tomar todos los cursos de Platzi durante un año");
+// } else if (tipoDeSuscripcion === "expert+") {
+//   console.log(
+//     "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+//   );
+// } else {
+//   console.log("Solo puedes tomar los cursos gratis");
+// }
+
+// let tipoDeSuscripcion = "expert+";
+
+// if (tipoDeSuscripcion === "basic") {
+//   console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+// }
+// if (tipoDeSuscripcion === "expert") {
+//   console.log("Puedes tomar todos los cursos de Platzi durante un año");
+// }
+// if (tipoDeSuscripcion === "expert+") {
+//   console.log(
+//     "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+//   );
+// }
+// if (tipoDeSuscripcion === "") {
+//   console.log("Solo puedes tomar los cursos gratis");
+// }
+
+// Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+
+// for (let i = 0; i < 5; i++) {
+//     console.log("El valor de i es: " + i);
+// }
+
+// let cont = 0;
+
+// while (cont <= 10) {
+//   console.log("el valor es: " + cont);
+//   cont++;
+// }
+
+//invertido
+// let cont = 20;
+
+// while (cont >= 0) {
+//   console.log("el valor es: " + cont);
+//   cont--;
+// }
+
+// Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien,
+// mostramos un mensaje de felicitaciones,
+// pero si responden mal, volvemos a empezar.
+// let user = prompt("Cuánto es 2 + 2");
+// let result = parseInt(user);
+// if (result === 4) {
+//   alert("Felicidades! acertaste");
+// } else {
+//   alert("No es la respuesta");
+// }
+
+// Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+// let arr = ["Hola", 2, 3343, 80, "que tal?"];
+
+// function primerElementoArr(array) {
+//   console.log(array[4]);
+// }
+// primerElementoArr(arr);
+
+// Crea una función que pueda recibir cualquier array como parámetro
+// e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+// let arr = ["Hola", 2, 3343, 80, "que tal?"];
+// function imprimeTodo(array) {
+//   for (const i of array) {
+//     console.log(i);
+//   }
+// }
+// imprimeTodo(arr);
+
+// Crea una función que pueda recibir cualquier objeto como parámetro
+// e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+// let obj = {
+//   name: "Esteban",
+//   lastname: "Gomez",
+//   age: 19,
+//   profession: "developer javascript",
+// };
+
+// function imprimeObj(objecto) {
+//   for (const key in objecto) {
+//     if (Object.hasOwnProperty.call(objecto, key)) {
+//       const element = objecto[key];
+//       console.log(element);
+//     }
+//   }
+// }
+// imprimeObj(obj);
