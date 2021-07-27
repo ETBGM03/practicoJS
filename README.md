@@ -1,4 +1,4 @@
-# practicoJS
+# Curso Practico de JavaScript *practicoJS*
 
 ## Taller #1: figuras geométricas
 
@@ -8,6 +8,13 @@
 - Cuarto paso: integrar JS con HTML
 
 ## Taller #2: descuentos y porcentajes
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript 
+- Tercer paso: crear funciones para calcular descuentos
+- Cuarto paso: integrar JS con HTML
+
+## Taller #3: Promedio, Mediana y Moda
 
 - Primer paso: definir las fórmulas
 - Segundo paso: implementar la fórmulas en JavaScript 
